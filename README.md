@@ -30,6 +30,7 @@ installed to ~/.cargo/bin
 wg-quick is a bash script wrapper for manipulating/sends `wg` commands to kernel or userspace WireGuard.
 
 Fix wg-quick for running as root user, is case of wg/wg-quick hangs
+https://github.com/cloudflare/boringtun/issues/90#issuecomment-508327254
 
 ```
 add_if() {
