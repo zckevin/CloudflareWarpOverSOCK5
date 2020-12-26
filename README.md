@@ -39,9 +39,11 @@ add_if() {
 
 ## run as non-root user / privileges dropping
 > useradd -M -s /bin/false dummy_user
+
 Create a dummy user without home dir & login shell
 
 > sudo -u dummy_user whoami --version
+
 Run all following programs with `sudo -u dummy_user` prefix
 
 ## local socks5 proxy with UDP forwarding enabled
